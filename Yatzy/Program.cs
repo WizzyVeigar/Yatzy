@@ -13,6 +13,7 @@ namespace Yatzy
 
             gameManager.GeneratePlayers(yatzyGame.PlayerAmount);
             yatzyGame.Play(yatzyGame.PlayerAmount);
+
         }
     }
 }
