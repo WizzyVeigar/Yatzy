@@ -15,11 +15,11 @@ namespace Yatzy
             set { diceValue = value; }
         }
 
-        private byte sideAmount;
+        private byte sideAmount = 6;
         /// <summary>
         /// Amount of sides on the dice; d6, d12..
         /// </summary>
-        public byte SideAmount
+        public byte SideAmount 
         {
             get { return sideAmount; }
             set { sideAmount = value; }
